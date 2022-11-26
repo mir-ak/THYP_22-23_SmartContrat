@@ -21,4 +21,7 @@ module.exports = {
     enabled: false,
     host: "127.0.0.1",
   },
+  paths: {
+    musiciansManager: "./client/src/musiciansManager/",
+  },
 };

@@ -1,13 +1,12 @@
-const HelloBlockchain = artifacts.require('HelloBlockchain');
+const MusiciansManager = artifacts.require("MusiciansManager");
 
 module.exports = async (callback) => {
   try {
-    const helloBlockchain = await HelloBlockchain.deployed();
-    const reciept = await helloBlockchain.SendRequest("Hello World");
+    const MusiciansManager = await MusiciansManager.deployed();
+    const reciept = await MusiciansManager.SendRequest("Hello World");
     console.log(reciept);
-
-  } catch(err) {
-    console.log('Oops: ', err.message);
+  } catch (err) {
+    console.log("Oops: ", err.message);
   }
   callback();
 };
