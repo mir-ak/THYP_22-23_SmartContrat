@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix jdc: <http://musicontology.com/#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<http://musicontology.com/#> a owl:Ontology ;
+    dcterms:title "music" .
+
+# ----------- Class --------------------
+
+jdc:Artist a rdfs:Class ;
+    rdfs:label "Artist" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:Sound a rdfs:Class ;
+    rdfs:label "Sound" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:Release a rdfs:Class ;
+    rdfs:label "Release" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:Instrument a rdfs:Class ;
+    rdfs:label "Instrument" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+# ----------- Property --------------------
+
+jdc:Artist a rdf:Property ;
+    rdfs:label "Artist" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:hasArtist a rdf:Property ;
+    rdfs:label "a comme Nom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:hasSound a rdf:Property ;
+    rdfs:label "a comme Sound" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:hasRelease a rdf:Property ;
+    rdfs:label "a comme Release" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:hasInstrument a rdf:Property ;
+    rdfs:label "a comme Instrument" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
