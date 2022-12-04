@@ -1,0 +1,692 @@
+[
+  {
+    "@context": "http://localhost:8000/api-context",
+    "@id": "http://localhost:8000/api/items/4",
+    "@type": ["o:Item", "music:Artist"],
+    "o:id": 4,
+    "o:is_public": true,
+    "o:owner": { "@id": "http://localhost:8000/api/users/1", "o:id": 1 },
+    "o:resource_class": {
+      "@id": "http://localhost:8000/api/resource_classes/118",
+      "o:id": 118
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8000/api/resource_templates/12",
+      "o:id": 12
+    },
+    "o:thumbnail": null,
+    "o:title": "Soolking",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8000/files/large/5eae0da4ff88de6f3c13b54d055d77c3a3c1fb85.jpg",
+      "medium": "http://localhost:8000/files/medium/5eae0da4ff88de6f3c13b54d055d77c3a3c1fb85.jpg",
+      "square": "http://localhost:8000/files/square/5eae0da4ff88de6f3c13b54d055d77c3a3c1fb85.jpg"
+    },
+    "o:created": {
+      "@value": "2022-12-04T15:47:39+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2022-12-04T16:36:20+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [{ "@id": "http://localhost:8000/api/media/5", "o:id": 5 }],
+    "o:item_set": [],
+    "o:site": [],
+    "music:hasArtist": [
+      {
+        "type": "literal",
+        "property_id": 197,
+        "property_label": "a comme Nom",
+        "is_public": true,
+        "@value": "Soolking"
+      }
+    ],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Soolking"
+      }
+    ],
+    "@reverse": {
+      "music:Artist": [
+        {
+          "@id": "http://localhost:8000/api/resources/6",
+          "o:title": "Suavemente"
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://localhost:8000/api-context",
+    "@id": "http://localhost:8000/api/items/6",
+    "@type": ["o:Item", "music:Sound"],
+    "o:id": 6,
+    "o:is_public": true,
+    "o:owner": { "@id": "http://localhost:8000/api/users/1", "o:id": 1 },
+    "o:resource_class": {
+      "@id": "http://localhost:8000/api/resource_classes/119",
+      "o:id": 119
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8000/api/resource_templates/3",
+      "o:id": 3
+    },
+    "o:thumbnail": null,
+    "o:title": "Suavemente",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8000/files/large/e48c6589d30d048f703f97cfd3d3edd094d3f028.jpg",
+      "medium": "http://localhost:8000/files/medium/e48c6589d30d048f703f97cfd3d3edd094d3f028.jpg",
+      "square": "http://localhost:8000/files/square/e48c6589d30d048f703f97cfd3d3edd094d3f028.jpg"
+    },
+    "o:created": {
+      "@value": "2022-12-04T15:57:50+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2022-12-04T16:35:54+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [{ "@id": "http://localhost:8000/api/media/7", "o:id": 7 }],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Suavemente"
+      }
+    ],
+    "music:Artist": [
+      {
+        "type": "resource",
+        "property_id": 196,
+        "property_label": "Artist",
+        "is_public": true,
+        "@id": "http://localhost:8000/api/items/4",
+        "value_resource_id": 4,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Soolking",
+        "thumbnail_url": "http://localhost:8000/files/square/5eae0da4ff88de6f3c13b54d055d77c3a3c1fb85.jpg",
+        "thumbnail_title": "Soolking",
+        "thumbnail_type": "image/png"
+      }
+    ],
+    "music:hasInstrument": [
+      {
+        "type": "resource",
+        "property_id": 200,
+        "property_label": "a comme Instrument",
+        "is_public": true,
+        "@id": "http://localhost:8000/api/items/10",
+        "value_resource_id": 10,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "La famille des percussions",
+        "thumbnail_url": "http://localhost:8000/files/square/243fe34fee2ff91ecf66d7aa6c9b512fa36a742a.jpg",
+        "thumbnail_title": "La famille des percussions",
+        "thumbnail_type": "image/jpeg"
+      },
+      {
+        "type": "resource",
+        "property_id": 200,
+        "property_label": "a comme Instrument",
+        "is_public": true,
+        "@id": "http://localhost:8000/api/items/9",
+        "value_resource_id": 9,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "instrument \u00e0 vent",
+        "thumbnail_url": "http://localhost:8000/files/square/044a1c464eed76e5c5b618f2f6fd9c3eca176f7d.jpg",
+        "thumbnail_title": "instrument \u00e0 vent",
+        "thumbnail_type": "image/jpeg"
+      }
+    ],
+    "music:hasRelease": [
+      {
+        "type": "literal",
+        "property_id": 199,
+        "property_label": "a comme Release",
+        "is_public": true,
+        "@value": "23 f\u00e9vr. 2022"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost:8000/api-context",
+    "@id": "http://localhost:8000/api/items/8",
+    "@type": ["o:Item", "music:Instrument"],
+    "o:id": 8,
+    "o:is_public": true,
+    "o:owner": { "@id": "http://localhost:8000/api/users/1", "o:id": 1 },
+    "o:resource_class": {
+      "@id": "http://localhost:8000/api/resource_classes/121",
+      "o:id": 121
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8000/api/resource_templates/11",
+      "o:id": 11
+    },
+    "o:thumbnail": null,
+    "o:title": "Les cordes",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8000/files/large/12fd32e8606132b209a0b8d57cb81f94dcd2ffea.jpg",
+      "medium": "http://localhost:8000/files/medium/12fd32e8606132b209a0b8d57cb81f94dcd2ffea.jpg",
+      "square": "http://localhost:8000/files/square/12fd32e8606132b209a0b8d57cb81f94dcd2ffea.jpg"
+    },
+    "o:created": {
+      "@value": "2022-12-04T16:00:48+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2022-12-04T16:06:58+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [{ "@id": "http://localhost:8000/api/media/11", "o:id": 11 }],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:description": [
+      {
+        "type": "literal",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@value": "Les cordes peuvent \u00eatre utilis\u00e9es pour fabriquer des sons. La corde est tendue sur un cadre (piano) ou un manche (guitare, contrebassine, instruments \u00e0 cordes\u2026), lequel est fix\u00e9 contre une caisse. Le musicien imprime de l\u0027\u00e9nergie \u00e0 la corde en la frottant (archet), en la tapant (marteau), ou en la pin\u00e7ant. La corde tendue ne peut pas se d\u00e9former pour absorber l\u0027\u00e9nergie, alors cette derni\u00e8re est transform\u00e9e en ondes. Les ondes sont transmises \u00e0 la caisse, qui r\u00e9sonne : la caisse de r\u00e9sonance amplifie les ondes en accumulant l\u0027\u00e9nergie qu\u0027elle re\u00e7oit, puis en la lib\u00e9rant sous forme d\u0027onde sonore, que l\u0027on peut alors entendre."
+      }
+    ],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Les cordes"
+      }
+    ],
+    "@reverse": {
+      "music:hasInstrument": [
+        {
+          "@id": "http://localhost:8000/api/resources/16",
+          "o:title": "Le Mendiant De L\u0027amour"
+        },
+        {
+          "@id": "http://localhost:8000/api/resources/20",
+          "o:title": "Un homme debout"
+        },
+        {
+          "@id": "http://localhost:8000/api/resources/21",
+          "o:title": "Un homme debout"
+        },
+        {
+          "@id": "http://localhost:8000/api/resources/17",
+          "o:title": "Le Mendiant De L\u0027amour"
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://localhost:8000/api-context",
+    "@id": "http://localhost:8000/api/items/9",
+    "@type": ["o:Item", "music:Instrument"],
+    "o:id": 9,
+    "o:is_public": true,
+    "o:owner": { "@id": "http://localhost:8000/api/users/1", "o:id": 1 },
+    "o:resource_class": {
+      "@id": "http://localhost:8000/api/resource_classes/121",
+      "o:id": 121
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8000/api/resource_templates/11",
+      "o:id": 11
+    },
+    "o:thumbnail": null,
+    "o:title": "instrument \u00e0 vent",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8000/files/large/044a1c464eed76e5c5b618f2f6fd9c3eca176f7d.jpg",
+      "medium": "http://localhost:8000/files/medium/044a1c464eed76e5c5b618f2f6fd9c3eca176f7d.jpg",
+      "square": "http://localhost:8000/files/square/044a1c464eed76e5c5b618f2f6fd9c3eca176f7d.jpg"
+    },
+    "o:created": {
+      "@value": "2022-12-04T16:02:10+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2022-12-04T16:08:05+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [{ "@id": "http://localhost:8000/api/media/12", "o:id": 12 }],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:description": [
+      {
+        "type": "literal",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@value": "Un instrument \u00e0 vent est un instrument de musique dont le son est produit par le souffle du musicien (fl\u00fbte, trompette, clarinette\u2026), d\u2019une soufflerie m\u00e9canique (orgue, accord\u00e9on) ou d\u2019une poche d\u0027air (cornemuse). Ils se divisent en deux familles principales : les bois et les cuivres."
+      }
+    ],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "instrument \u00e0 vent"
+      }
+    ],
+    "@reverse": {
+      "music:hasInstrument": [
+        {
+          "@id": "http://localhost:8000/api/resources/6",
+          "o:title": "Suavemente"
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://localhost:8000/api-context",
+    "@id": "http://localhost:8000/api/items/10",
+    "@type": ["o:Item", "music:Instrument"],
+    "o:id": 10,
+    "o:is_public": true,
+    "o:owner": { "@id": "http://localhost:8000/api/users/1", "o:id": 1 },
+    "o:resource_class": {
+      "@id": "http://localhost:8000/api/resource_classes/121",
+      "o:id": 121
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8000/api/resource_templates/11",
+      "o:id": 11
+    },
+    "o:thumbnail": null,
+    "o:title": "La famille des percussions",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8000/files/large/243fe34fee2ff91ecf66d7aa6c9b512fa36a742a.jpg",
+      "medium": "http://localhost:8000/files/medium/243fe34fee2ff91ecf66d7aa6c9b512fa36a742a.jpg",
+      "square": "http://localhost:8000/files/square/243fe34fee2ff91ecf66d7aa6c9b512fa36a742a.jpg"
+    },
+    "o:created": {
+      "@value": "2022-12-04T16:03:11+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2022-12-04T16:09:19+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [{ "@id": "http://localhost:8000/api/media/13", "o:id": 13 }],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:description": [
+      {
+        "type": "literal",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@value": "La famille des percussions d\u00e9signe les instruments de musique dont le son est \u00e9mis lorsque l\u0027instrument est frapp\u00e9, secou\u00e9 ou gratt\u00e9."
+      }
+    ],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "La famille des percussions"
+      }
+    ],
+    "@reverse": {
+      "music:hasInstrument": [
+        {
+          "@id": "http://localhost:8000/api/resources/6",
+          "o:title": "Suavemente"
+        },
+        {
+          "@id": "http://localhost:8000/api/resources/16",
+          "o:title": "Le Mendiant De L\u0027amour"
+        },
+        {
+          "@id": "http://localhost:8000/api/resources/20",
+          "o:title": "Un homme debout"
+        },
+        {
+          "@id": "http://localhost:8000/api/resources/21",
+          "o:title": "Un homme debout"
+        },
+        {
+          "@id": "http://localhost:8000/api/resources/17",
+          "o:title": "Le Mendiant De L\u0027amour"
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://localhost:8000/api-context",
+    "@id": "http://localhost:8000/api/items/14",
+    "@type": ["o:Item", "music:Artist"],
+    "o:id": 14,
+    "o:is_public": true,
+    "o:owner": { "@id": "http://localhost:8000/api/users/1", "o:id": 1 },
+    "o:resource_class": {
+      "@id": "http://localhost:8000/api/resource_classes/118",
+      "o:id": 118
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8000/api/resource_templates/12",
+      "o:id": 12
+    },
+    "o:thumbnail": null,
+    "o:title": "Enrico Macias",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8000/files/large/185a2d071f4de2c3435a23f5995f8dcfb92c3bee.jpg",
+      "medium": "http://localhost:8000/files/medium/185a2d071f4de2c3435a23f5995f8dcfb92c3bee.jpg",
+      "square": "http://localhost:8000/files/square/185a2d071f4de2c3435a23f5995f8dcfb92c3bee.jpg"
+    },
+    "o:created": {
+      "@value": "2022-12-04T16:15:04+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2022-12-04T16:16:41+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [{ "@id": "http://localhost:8000/api/media/15", "o:id": 15 }],
+    "o:item_set": [],
+    "o:site": [],
+    "music:hasArtist": [
+      {
+        "type": "literal",
+        "property_id": 197,
+        "property_label": "a comme Nom",
+        "is_public": true,
+        "@value": "Enrico Macias"
+      }
+    ],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Enrico Macias"
+      }
+    ],
+    "@reverse": {
+      "music:Artist": [
+        {
+          "@id": "http://localhost:8000/api/resources/16",
+          "o:title": "Le Mendiant De L\u0027amour"
+        },
+        {
+          "@id": "http://localhost:8000/api/resources/17",
+          "o:title": "Le Mendiant De L\u0027amour"
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://localhost:8000/api-context",
+    "@id": "http://localhost:8000/api/items/16",
+    "@type": ["o:Item", "music:Sound"],
+    "o:id": 16,
+    "o:is_public": true,
+    "o:owner": { "@id": "http://localhost:8000/api/users/1", "o:id": 1 },
+    "o:resource_class": {
+      "@id": "http://localhost:8000/api/resource_classes/119",
+      "o:id": 119
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8000/api/resource_templates/3",
+      "o:id": 3
+    },
+    "o:thumbnail": null,
+    "o:title": "Le Mendiant De L\u0027amour",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8000/files/large/8989c45aa66307989f20316c5bbb04918c6fe556.jpg",
+      "medium": "http://localhost:8000/files/medium/8989c45aa66307989f20316c5bbb04918c6fe556.jpg",
+      "square": "http://localhost:8000/files/square/8989c45aa66307989f20316c5bbb04918c6fe556.jpg"
+    },
+    "o:created": {
+      "@value": "2022-12-04T16:25:18+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2022-12-04T16:37:21+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [{ "@id": "http://localhost:8000/api/media/17", "o:id": 17 }],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Le Mendiant De L\u0027amour"
+      }
+    ],
+    "music:Artist": [
+      {
+        "type": "resource",
+        "property_id": 196,
+        "property_label": "Artist",
+        "is_public": true,
+        "@id": "http://localhost:8000/api/items/14",
+        "value_resource_id": 14,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Enrico Macias",
+        "thumbnail_url": "http://localhost:8000/files/square/185a2d071f4de2c3435a23f5995f8dcfb92c3bee.jpg",
+        "thumbnail_title": "Enrico Macias",
+        "thumbnail_type": "image/jpeg"
+      }
+    ],
+    "music:hasInstrument": [
+      {
+        "type": "resource",
+        "property_id": 200,
+        "property_label": "a comme Instrument",
+        "is_public": true,
+        "@id": "http://localhost:8000/api/items/8",
+        "value_resource_id": 8,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Les cordes",
+        "thumbnail_url": "http://localhost:8000/files/square/12fd32e8606132b209a0b8d57cb81f94dcd2ffea.jpg",
+        "thumbnail_title": "les cordes",
+        "thumbnail_type": "image/gif"
+      },
+      {
+        "type": "resource",
+        "property_id": 200,
+        "property_label": "a comme Instrument",
+        "is_public": true,
+        "@id": "http://localhost:8000/api/items/10",
+        "value_resource_id": 10,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "La famille des percussions",
+        "thumbnail_url": "http://localhost:8000/files/square/243fe34fee2ff91ecf66d7aa6c9b512fa36a742a.jpg",
+        "thumbnail_title": "La famille des percussions",
+        "thumbnail_type": "image/jpeg"
+      }
+    ],
+    "music:hasRelease": [
+      {
+        "type": "literal",
+        "property_id": 199,
+        "property_label": "a comme Release",
+        "is_public": true,
+        "@value": "01/06/1980"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost:8000/api-context",
+    "@id": "http://localhost:8000/api/items/18",
+    "@type": ["o:Item", "music:Artist"],
+    "o:id": 18,
+    "o:is_public": true,
+    "o:owner": { "@id": "http://localhost:8000/api/users/1", "o:id": 1 },
+    "o:resource_class": {
+      "@id": "http://localhost:8000/api/resource_classes/118",
+      "o:id": 118
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8000/api/resource_templates/12",
+      "o:id": 12
+    },
+    "o:thumbnail": null,
+    "o:title": "Claudio Cap\u00e9o",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8000/files/large/7ea5588eb0ba8eae40fcd1451b7a0c86236982bf.jpg",
+      "medium": "http://localhost:8000/files/medium/7ea5588eb0ba8eae40fcd1451b7a0c86236982bf.jpg",
+      "square": "http://localhost:8000/files/square/7ea5588eb0ba8eae40fcd1451b7a0c86236982bf.jpg"
+    },
+    "o:created": {
+      "@value": "2022-12-04T16:27:41+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2022-12-04T16:29:24+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [{ "@id": "http://localhost:8000/api/media/19", "o:id": 19 }],
+    "o:item_set": [],
+    "o:site": [],
+    "music:hasArtist": [
+      {
+        "type": "literal",
+        "property_id": 197,
+        "property_label": "a comme Nom",
+        "is_public": true,
+        "@value": "Claudio Cap\u00e9o"
+      }
+    ],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Claudio Cap\u00e9o"
+      }
+    ],
+    "@reverse": {
+      "music:Artist": [
+        {
+          "@id": "http://localhost:8000/api/resources/20",
+          "o:title": "Un homme debout"
+        },
+        {
+          "@id": "http://localhost:8000/api/resources/21",
+          "o:title": "Un homme debout"
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://localhost:8000/api-context",
+    "@id": "http://localhost:8000/api/items/20",
+    "@type": ["o:Item", "music:Sound"],
+    "o:id": 20,
+    "o:is_public": true,
+    "o:owner": { "@id": "http://localhost:8000/api/users/1", "o:id": 1 },
+    "o:resource_class": {
+      "@id": "http://localhost:8000/api/resource_classes/119",
+      "o:id": 119
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8000/api/resource_templates/3",
+      "o:id": 3
+    },
+    "o:thumbnail": null,
+    "o:title": "Un homme debout",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8000/files/large/f2215bc930dfbd8121dcb8c58ba46a54cad55e53.jpg",
+      "medium": "http://localhost:8000/files/medium/f2215bc930dfbd8121dcb8c58ba46a54cad55e53.jpg",
+      "square": "http://localhost:8000/files/square/f2215bc930dfbd8121dcb8c58ba46a54cad55e53.jpg"
+    },
+    "o:created": {
+      "@value": "2022-12-04T16:39:09+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2022-12-04T16:39:27+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [{ "@id": "http://localhost:8000/api/media/21", "o:id": 21 }],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Un homme debout"
+      }
+    ],
+    "music:Artist": [
+      {
+        "type": "resource",
+        "property_id": 196,
+        "property_label": "Artist",
+        "is_public": true,
+        "@id": "http://localhost:8000/api/items/18",
+        "value_resource_id": 18,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Claudio Cap\u00e9o",
+        "thumbnail_url": "http://localhost:8000/files/square/7ea5588eb0ba8eae40fcd1451b7a0c86236982bf.jpg",
+        "thumbnail_title": "Claudio Cap\u00e9o",
+        "thumbnail_type": "image/jpeg"
+      }
+    ],
+    "music:hasInstrument": [
+      {
+        "type": "resource",
+        "property_id": 200,
+        "property_label": "a comme Instrument",
+        "is_public": true,
+        "@id": "http://localhost:8000/api/items/8",
+        "value_resource_id": 8,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Les cordes",
+        "thumbnail_url": "http://localhost:8000/files/square/12fd32e8606132b209a0b8d57cb81f94dcd2ffea.jpg",
+        "thumbnail_title": "les cordes",
+        "thumbnail_type": "image/gif"
+      },
+      {
+        "type": "resource",
+        "property_id": 200,
+        "property_label": "a comme Instrument",
+        "is_public": true,
+        "@id": "http://localhost:8000/api/items/10",
+        "value_resource_id": 10,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "La famille des percussions",
+        "thumbnail_url": "http://localhost:8000/files/square/243fe34fee2ff91ecf66d7aa6c9b512fa36a742a.jpg",
+        "thumbnail_title": "La famille des percussions",
+        "thumbnail_type": "image/jpeg"
+      }
+    ],
+    "music:hasRelease": [
+      {
+        "type": "literal",
+        "property_id": 199,
+        "property_label": "a comme Release",
+        "is_public": true,
+        "@value": "25 mars 2016"
+      }
+    ]
+  }
+]
